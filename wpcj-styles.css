@@ -1,0 +1,344 @@
+.wpcj-wrap {
+	margin:0; 
+	background-color: #FFF; 
+	overflow:auto;
+}
+
+.wpcj-job-list {
+	overflow:auto; 
+	clear:both;
+}
+
+.wpcj-job {
+	padding: 0 !important; 
+	margin-bottom:10px !important; 
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+.listing-left {
+	float:left; 
+	margin: 20px 20px 20px 0;
+}
+.listing-right {
+	float:right; 
+	margin: 20px 0 20px 20px;
+}
+.listing-center {
+	margin: 10px auto;
+}
+.wpcj-job-body {
+	display:table-cell; 
+	padding:10px
+}
+.wpcj-job-header {
+	background:#f5b443; 
+	border-bottom:solid thin #efecec; 
+	padding:10px;
+}
+.wpcj-job-link {
+	color: #000; 
+	font-size: 14px;
+	font-weight: bold; 
+}
+#wpcj-job-title a {
+	text-decoration: none;
+	box-shadow:none;
+	-webkit-box-shadow: none;
+}
+#wpcj-job-title a:hover {
+	text-decoration:underline;
+}
+.wpcj-job-company {
+	color: #868484; 
+	font-size: 16px; 
+	margin:5px 0;
+}
+.wpcj-job-location {
+	color: #868484;
+}
+.wpcj-job-apply {
+	display:table-cell; 
+	width:150px; 
+	vertical-align:middle; 
+	text-align:center;
+}
+.wpcj-apply-btn {
+	background-color: #f5b443;
+    	border: none;
+    	color: white;
+    	padding: 10px;
+    	text-align: center;
+    	text-decoration: none;
+    	display: inline-block;
+    	font-size: 16px;
+    	border-radius: 4px;
+    	-webkit-transition-duration: 0.4s; /* Safari */
+    	transition-duration: 0.4s;
+}
+
+.wpcj-apply-btn:hover {
+	background-color: #efefef; 
+	color:#000;
+}
+.wpcj-apply-link {
+	color:#FFF!important; 
+	font-size:13px;
+	text-decoration:none; 
+	font-weight: bold;
+}
+.wpcj-apply-link a:hover {
+	text-decoration:underline;
+}
+
+.wpcj-job-time {
+	font-size:13px; 
+	color: #868484; 
+	margin: 5px 0 10px 0;
+}
+.wpcj-job-desc {
+	color: #000; 
+	font-size: 14px; 
+	padding: 5px 0;
+}
+.wpcj-odd {
+	background: #f1f1f1;
+}
+.wpcj-even {}
+.wpcj-author-link {
+	text-align:right;
+}
+
+/* MAP STYLES */
+
+.map-left {float:left; margin: 20px 20px 20px 0px;}
+.map-right {float:right; margin: 20px 0px 20px 20px;}
+.map-center{margin: 0 auto;}
+
+/* J2C SEARCH FORM */
+#wpcj-j2c-table-vert, #wpcj-j2c-table-horiz, #wpcj-j2c-table-vert td, #wpcj-j2c-table-horiz tr {
+	border: 0px;
+}
+#j2c-search-form-horizontal {
+	width:475px; 
+	margin:0 auto;
+}
+#j2c-search-form-vertical {
+	width: 178px; 
+	margin: 0 auto;
+}
+
+#j2c-search-form-vertical-right {
+	width: 178px; 
+	float:right; 
+	margin: 20px 0 20px 20px;
+	clear:both;
+}
+#j2c-search-form-vertical-left {
+	width: 178px; 
+	float: left; 
+	margin: 20px 20px 20px 0; 
+}
+#wpcj-j2c-table-horiz td, #wpcj-j2c-table-vert td {
+	color:#F57B20;
+	font-weight:bold;
+	padding-top:4px;
+	padding-bottom:4px; 
+	font-size:14px;
+	border: 0px;
+}
+#wpcj-j2c-table-horiz tr, #wpcj-j2c-table-vert tr {
+	border: 0px;
+}
+#wpcj-horiz-search-form, #wpcj-vert-search-form {
+	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+#wpcj-horiz-search-form label, #wpcj-vert-search-form label {
+	color:#333;
+}
+#wpcj-horiz-search-form input[type="text"] {
+	margin-left:0px;
+	width:150px;
+	border-top:2px #AAA solid; 
+	border-left:2px #AAA solid; 
+	padding: 5px; 
+	line-height: 1;
+	margin-right:5px;
+	color: #666;
+	background: #fff;
+	background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	display: block;
+}
+#wpcj-vert-search-form input[type="text"] {
+	margin-left:0px;
+	border-top:2px #AAA solid;
+	border-left:2px #AAA solid;
+	margin-left: 0px;
+	width: 150px;
+	border-top: 2px #AAA solid;
+	border-left: 2px #AAA solid;
+	padding: 5px;
+	line-height: 1;
+	margin-right: 5px;
+	color: #666;
+	background: #fff;
+	background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	display: block;
+}
+
+#wpcj-j2c-submit {
+	background-color: #F57B20;
+	border: 0;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: 800;
+	line-height: 1;
+	padding: 10px;
+	text-shadow: none;
+	-webkit-transition: background 0.2s;
+	transition: background 0.2s;
+}
+
+.wpcj-j2c-att {
+	float:right;
+	font-size:10px;
+}
+.wpcj-mobile-search-form {
+	display:none;
+}
+.wpcj-full-search-form {
+	padding:20px;
+}
+
+<!-- Careerjet search form -->
+<style>
+div.cjsearchform{ 
+
+text-align: left; 
+border: 1px solid #919294; 
+background-color: #FFFFFF ;
+padding: 8px ; 
+font-family: Arial, sans-serif, Sans-serif ; 
+font-size: 13px ; 
+color: #000000; 
+width: 480px;
+}
+
+div.cjsearchform form.cjsearchform{ 
+padding-top: 0px ; 
+padding-bottom: 0px ; 
+padding-left: 0px ; 
+padding-right: 0px ;
+}
+
+span.cjlabel{ 
+font-size: 13px ; 
+font-weight: bold ; 
+color: #000000; 
+}
+
+span.cjlabelsmall{ 
+font-size: 11px ; 
+color: #000000; 
+}
+
+input.cjinput{ 
+width: 90%;
+padding: 3px 0px;
+border: 1px solid #AAA;
+border-right: 1px solid #DDD;
+border-bottom: 1px solid #DDD;
+margin-top:2px;
+margin-bottom:2px;
+}
+
+div.cjbotl{
+   	color: #000000;
+	text-align:right;
+}
+div.cjbotl a{
+   color: #198ADC;
+}
+
+input.cjbutton{  
+font-family:  Arial, sans-serif, Sans-serif; 
+}
+
+#search_form_tools span.button{
+float:left;
+color:#666;
+}
+
+#search_form_tools span.button input{
+float:left;
+color:#FFFFFF;
+padding: 1px 10px;
+font-weight: bold;
+cursor: pointer;
+border: 1px solid #d70;
+-webkit-border-radius: 2px;
+-moz-border-radius: 3px;
+border-radius: 2px;
+background: #e81;
+background-image: linear-gradient(top, #F19F40 0%, #EE8711 100%);
+background-image: -o-linear-gradient(top, #F19F40 0%, #EE8711 100%);
+background-image: -moz-linear-gradient(top, #F19F40 0%, #EE8711 100%);
+background-image: -webkit-linear-gradient(top, #F19F40 0%, #EE8711 100%);
+background-image: -ms-linear-gradient(top, #F19F40 0%, #EE8711 100%);
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #F19F40),color-stop(1, #EE8711));
+}
+
+</style>
+<a name="cjsearchformanchor"></a>
+<div class="cjsearchform">
+<script language="javascript" type="text/javascript" src="http://www.careerjet.com/partners/js_searchform.html?format=1&nfr=1"></script>
+</div>
+<!-- end of Careerjet search form -->
+
+
+
+/* MOBILE STYLES */
+
+@media only screen and (max-width: 580px) {
+
+	.wpcj-mobile-search-form {
+		display:inline;
+		margin:20px;
+	}
+	.wpcj-full-search-form {
+		display: none;
+	}
+	.wpcj-job-body {
+		display:block;
+	}
+	.wpcj-job-apply {
+		display:block; 
+		padding-bottom:20px; 
+		width:100%;
+	}
+
+	#j2c-search-form-vertical-right, #j2c-search-form-vertical-left {
+		margin: 0 auto;
+		width: 145px; 
+		float:none;
+	}
+}
+
+/* BREAK STANDARD WP ADMIN STYLES */
+#wpcontent {background-color: #FFF !important;}
+.form-table th {padding: 10px 10px 10px 0 !important;}
+.form-table td {padding: 5px 0px !important;}
+#wpcj-tab-wrapper .nav-tab-active {background-color: #2f2d9f; color: #FFF;}
